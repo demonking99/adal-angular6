@@ -1,25 +1,26 @@
 {
-  "name": "adal-angular4",
-  "version": "3.0.17",
-  "description": "Angular 4+ ADAL Wrapper",
+  "name": "adal-angular6-wrapper",
+  "version": "1.0.5",
+  "description": "Angular 6 ADAL Wrapper. This version is a fork of follwing library for some personal implementation. No Support is available for this version. Original: https://github.com/benbaran/adal-angular4 ",
   "main": "index.js",
   "scripts": {
-    "compile": "node_modules/.bin/ngc -p tsconfig-aot.json"
+    "compile": "node_modules/.bin/ngc -p tsconfig-aot.json",
+    "packagr": "ng-packagr -p ng-package.json"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/benbaran/adal-angular4.git"
+    "url": "git+https://github.com/demonking99/adal-angular6"
   },
   "keywords": [
     "ADAL",
     "Angular"
   ],
-  "author": "Ben Baran",
+  "author": "demonking99",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/benbaran/adal-angular4/issues"
+    "url": "https://github.com/demonking99/adal-angular6"
   },
-  "homepage": "https://github.com/benbaran/adal-angular4#readme",
+  "homepage": "https://github.com/demonking99/adal-angular6#readme",
   "peerDependencies": {},
   "devDependencies": {
     "@angular/common": "~6.1.4",
@@ -34,6 +35,7 @@
     "gulp-bump": "^3.1.1",
     "gulp-replace": "^1.0.0",
     "gulp-watch": "^5.0.0",
+    "ng-packagr": "^4.4.5",
     "npm": "^6.4.0",
     "rollup": "~0.65.0",
     "rxjs": "~6.2.1",
